@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/apple/Downloads/partime_job_sinovo/broadvis/software/output/obj_linux/u-boot/include'
+let g:netrw_dirhist_2='/Users/apple/Downloads/partime_job_sinovo/broadvis/software/linux/platform/xilinx/u-boot/board'
+let g:netrw_dirhist_3='/Users/apple/Downloads/partime_job_sinovo/broadvis/software/linux/platform/xilinx/u-boot/board/xilinx'
+let g:netrw_dirhist_4='/Users/apple/Downloads/partime_job_sinovo/broadvis/software/linux/platform/xilinx/u-boot/board/xilinx/dts'
+let g:netrw_dirhist_5='/Users/apple/Downloads/partime_job_sinovo/broadvis/software/linux/platform/xilinx/u-boot/board/xilinx'
+let g:netrw_dirhist_6='/Users/apple/Downloads/partime_job_sinovo/broadvis/software/linux/platform/xilinx/u-boot/board/xilinx/common'
+let g:netrw_dirhist_7='/Users/apple/Downloads/partime_job_sinovo/broadvis/software/linux/platform/xilinx/u-boot/board/xilinx'
+let g:netrw_dirhist_8='/Users/apple/Downloads/partime_job_sinovo/broadvis/software/linux/platform/xilinx/u-boot/board/xilinx/zynq'
