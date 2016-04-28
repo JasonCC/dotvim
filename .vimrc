@@ -42,6 +42,9 @@ Plugin 'Shougo/vimshell.vim'
 Plugin 'Shougo/unite-outline'
 Plugin 'fatih/vim-go'
 Plugin 'Shougo/neocomplete.vim'
+Plugin 'Shougo/context_filetype.vim'
+Plugin 'Shougo/neoinclude.vim'
+Plugin 'Shougo/neco-syntax'
 Plugin 'elzr/vim-json'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'myusuf3/numbers.vim'
@@ -94,7 +97,8 @@ set guifont=Hack:h12
 "set guifont=Menlo:h12
 "colorscheme PerfectDark
 "set modelines=5
-colorscheme github
+"colorscheme github
+colorscheme darkburn
 
 " Python Identation
 " PEP8
@@ -167,7 +171,7 @@ let g:UltiSnipsEditSplit="vertical"
 " airline
 set laststatus=2
 let g:airline_powerline_fonts=1
-let g:airline_theme="base16"
+"let g:airline_theme="base16"
 
 " SimpylFold
 let g:SimpylFold_docstring_preview=1
@@ -177,8 +181,8 @@ let g:SimpylFold_docstring_preview=1
 
 " rainbow_parentheses.vim
 let g:rbpt_colorpairs = [
-	\ ['brown',		'RoyalBlue3'],
-	\ ['Darkblue',    'SeaGreen3'],
+    \ ['brown',	      'RoyalBlue3'],
+    \ ['Darkblue',    'SeaGreen3'],
     \ ['darkgray',    'DarkOrchid3'],
     \ ['darkgreen',   'firebrick3'],
     \ ['darkcyan',    'RoyalBlue3'],
@@ -193,7 +197,7 @@ let g:rbpt_colorpairs = [
     \ ['darkcyan',    'SeaGreen3'],
     \ ['darkred',     'DarkOrchid3'],
     \ ['red',         'firebrick3'],
-	\ ]
+    \ ]
 let g:rbpt_max = 16
 let g:rbpt_loadcmd_toggle = 0
 au VimEnter * RainbowParenthesesToggle
