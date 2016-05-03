@@ -55,6 +55,8 @@ Plugin 'bitc/vim-bad-whitespace'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'derekwyatt/vim-fswitch'
 Plugin 'kshenoy/vim-signature'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 
 set nu
 set autoindent
@@ -205,3 +207,5 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
+"vim-markdown
+let g:vim_markdown_folding_disabled = 1
