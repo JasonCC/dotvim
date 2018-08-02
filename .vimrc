@@ -322,6 +322,8 @@ let g:Illuminate_highlightUnderCursor = 1
 "endif
 
 function! LoadCscope()
+	set cscopetag
+	set csto=0
   let db = findfile("cscope.out", ".;")
   if (!empty(db))
     let path = strpart(db, 0, match(db, "/cscope.out$"))
