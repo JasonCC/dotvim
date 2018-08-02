@@ -329,8 +329,8 @@ function! LoadCscope()
     exe "cs add " . db . " " . path
     set cscopeverbose
   " else add the database pointed to by environment variable
-  elseif  != ""
-    cs add
+  elseif $CSCOPE_DB != ""
+    cs add $CSCOPE_DB
   endif
 endfunction
 au BufEnter /* call LoadCscope()
